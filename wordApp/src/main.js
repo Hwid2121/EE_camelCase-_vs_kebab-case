@@ -1,20 +1,22 @@
-/**
- * main.js
- *
- * Bootstraps Vuetify and other plugins then mounts the App`
- */
-
-// Plugins
+import { createApp } from "vue";
+import axios from "axios";
 import { registerPlugins } from '@/plugins'
 
-// Components
-import App from './App.vue'
+import App from './App.vue';
+import router from './router';
 
-// Composables
-import { createApp } from 'vue'
+import VueCookies  from "vue-cookies";
 
-const app = createApp(App)
+
+const app = createApp(App);
 
 registerPlugins(app)
 
-app.mount('#app')
+axios.defaults.withCredentials = true;
+axios.defaults.baseURL = process.env.VUE_APP_BASE_URL;  // the FastAPI backend
+
+app.use(router);
+app.mount("#app");
+// console.log('process.env.VUE_APP_BASE_URL', process.env.VUE_APP_BASE_URL)
+
+app.use(VueCookies);
