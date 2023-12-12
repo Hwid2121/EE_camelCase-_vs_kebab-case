@@ -1,3 +1,4 @@
+import json
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi
 
@@ -35,6 +36,11 @@ def insert_result_db(db, res):
         results_db = db['results']
         results_db.insert_one(res)
 
+
+def load_questions():
+    with open('questions.json', 'r') as file:
+        data = json.load(file)
+    return data
 
 
 results_obj = {
