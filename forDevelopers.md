@@ -9,3 +9,11 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 ```
 
+
+backend
+```bash
+uvicorn main:app --reload
+```
+
+
+
