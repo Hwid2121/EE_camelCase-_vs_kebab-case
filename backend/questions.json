@@ -1,27 +1,124 @@
 {
-    "kebabQuestions": [
-      {"sentence": "add item", "options": ["add-item", "add-interest", "add-ice", "angle-item"]},
-      {"sentence": "calculate sum", "options": ["calculate-sum", "create-sum", "carry-sum", "calculate-sun"]},
-      {"sentence": "find user", "options": ["find-user", "find-use", "find-usher", "fine-user"]},
-      {"sentence": "load file", "options": ["load-file", "lead-file", "load-foil", "loud-file"]},
-      {"sentence": "send email", "options": ["send-email", "send-emil", "sand-email", "send-easel"]},
-      {"sentence": "create account", "options": ["create-account", "crate-account", "create-acorn", "create-accent"]},
-      {"sentence": "update record", "options": ["update-record", "update-recall", "uproot-record", "update-recode"]},
-      {"sentence": "delete user", "options": ["delete-user", "dilate-user", "delete-use", "detail-user"]},
-      {"sentence": "search item", "options": ["search-item", "search-idea", "search-in-time", "scratch-item"]},
-      {"sentence": "play video", "options": ["play-video", "play-veto", "plate-video", "play-vivid"]}
-    ],
-    "camelCaseQuestions": [
-      {"sentence": "add item", "options": ["addItem", "addInterest", "addIce", "angleItem"]},
-      {"sentence": "calculate sum", "options": ["calculateSum", "createSum", "carrySum", "calculateSun"]},
-      {"sentence": "find user", "options": ["findUser", "findUse", "findUsher", "fineUser"]},
-      {"sentence": "load file", "options": ["loadFile", "leadFile", "loadFoil", "loudFile"]},
-      {"sentence": "send email", "options": ["sendEmail", "sendEmil", "sandEmail", "sendEasel"]},
-      {"sentence": "create account", "options": ["createAccount", "crateAccount", "createAcorn", "createAccent"]},
-      {"sentence": "update record", "options": ["updateRecord", "updateRecall", "uprootRecord", "updateRecode"]},
-      {"sentence": "delete user", "options": ["deleteUser", "dilateUser", "deleteUse", "detailUser"]},
-      {"sentence": "search item", "options": ["searchItem", "searchIdea", "searchInTime", "scratchItem"]},
-      {"sentence": "play video", "options": ["playVideo", "playVeto", "plateVideo", "playVivid"]}
-    ]
-  }
-  
+  "questions": [
+    {
+      "sentence": "add item",
+      "options": ["add-item", "add-interest", "add-ice", "angle-item"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "kebab"
+    },
+    {
+      "sentence": "calculate sum",
+      "options": ["calculate-sum", "create-sum", "carry-sum", "calculate-sun"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "kebab"
+    },
+    {
+      "sentence": "find user",
+      "options": ["find-user", "find-use", "find-usher", "fine-user"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "kebab"
+    },
+    {
+      "sentence": "load file",
+      "options": ["load-file", "lead-file", "load-foil", "loud-file"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "kebab"
+    },
+    {
+      "sentence": "send email",
+      "options": ["send-email", "send-emil", "sand-email", "send-easel"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "kebab"
+    },
+    {
+      "sentence": "create account",
+      "options": ["create-account", "crate-account", "create-acorn", "create-accent"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "kebab"
+    },
+    {
+      "sentence": "update record",
+      "options": ["update-record", "update-recall", "uproot-record", "update-recode"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "kebab"
+    },
+    {
+      "sentence": "delete user",
+      "options": ["delete-user", "dilate-user", "delete-use", "detail-user"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "kebab"
+    },
+    {
+      "sentence": "search item",
+      "options": ["search-item", "search-idea", "search-in-time", "scratch-item"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "kebab"
+    },
+    {
+      "sentence": "play video",
+      "options": ["play-video", "play-veto", "plate-video", "play-vivid"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "kebab"
+    },
+    {
+      "sentence": "add item",
+      "options": ["addItem", "addInterest", "addIce", "angleItem"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "camelCase"
+    },
+    {
+      "sentence": "calculate sum",
+      "options": ["calculateSum", "createSum", "carrySum", "calculateSun"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "camelCase"
+    },
+    {
+      "sentence": "find user",
+      "options": ["findUser", "findUse", "findUsher", "fineUser"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "camelCase"
+    },
+    {
+      "sentence": "load file",
+      "options": ["loadFile", "leadFile", "loadFoil", "loudFile"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "camelCase"
+    },
+    {
+      "sentence": "send email",
+      "options": ["sendEmail", "sendEmil", "sandEmail", "sendEasel"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "camelCase"
+    },
+    {
+      "sentence": "create account",
+      "options": ["createAccount", "crateAccount", "createAcorn", "createAccent"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "camelCase"
+    },
+    {
+      "sentence": "update record",
+      "options": ["updateRecord", "updateRecall", "uprootRecord", "updateRecode"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "camelCase"
+    },
+    {
+      "sentence": "delete user",
+      "options": ["deleteUser", "dilateUser", "deleteUse", "detailUser"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "camelCase"
+    },
+    {
+      "sentence": "search item",
+      "options": ["searchItem", "searchIdea", "searchInTime", "scratchItem"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "camelCase"
+    },
+    {
+      "sentence": "play video",
+      "options": ["playVideo", "playVeto", "plateVideo", "playVivid"],
+      "results": {"selectedOption": null, "time": null},
+      "type": "camelCase"
+    }
+  ]
+}

@@ -33,8 +33,24 @@ def get_db():
 
 def insert_result_db(db, res):
     if db is not None:
+        user_val = res.user
+        results_val = res.results
+        print("User Data:", user_val)
+        print("Results Data:", results_val)
+
         results_db = db['results']
-        results_db.insert_one(res)
+
+        # Create a new document to be inserted into the database
+        new_document = {
+            "user": user_val.dict(),  # Convert Pydantic model to dict
+            "results": [result.dict() for result in results_val]  # Convert each result item to dict
+        }
+
+        # Insert the new document into the database
+        results_db.insert_one(new_document)
+        print("result inserted in the db successfuly")
+
+        # results_db.insert_one(res)
 
 
 def load_questions():

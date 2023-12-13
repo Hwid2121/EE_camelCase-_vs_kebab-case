@@ -69,7 +69,7 @@ export default {
     return {
       userData: {
         gender: '',
-        age: null,
+        age: '',
         hasItSkills: false,
         usesGlasses: false,
         consent: false
