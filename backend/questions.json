@@ -2,9 +2,9 @@
   "questions": [
     {
       "sentence": "add item",
-      "options": ["add-item", "add-interest", "add-ice", "angle-item"],
+      "options": ["addItem", "addInterest", "addIce", "angleItem"],
       "results": {"selectedOption": null, "time": null},
-      "type": "kebab"
+      "type": "camelCase"
     },
     {
       "sentence": "calculate sum",
@@ -14,9 +14,9 @@
     },
     {
       "sentence": "find user",
-      "options": ["find-user", "find-use", "find-usher", "fine-user"],
+      "options": ["findUser", "findUse", "findUsher", "fineUser"],
       "results": {"selectedOption": null, "time": null},
-      "type": "kebab"
+      "type": "camelCase"
     },
     {
       "sentence": "load file",
@@ -26,9 +26,9 @@
     },
     {
       "sentence": "send email",
-      "options": ["send-email", "send-emil", "sand-email", "send-easel"],
+      "options": ["sendEmail", "sendEmil", "sandEmail", "sendEasel"],
       "results": {"selectedOption": null, "time": null},
-      "type": "kebab"
+      "type": "camelCase"
     },
     {
       "sentence": "create account",
@@ -38,9 +38,9 @@
     },
     {
       "sentence": "update record",
-      "options": ["update-record", "update-recall", "uproot-record", "update-recode"],
+      "options": ["updateRecord", "updateRecall", "uprootRecord", "updateRecode"],
       "results": {"selectedOption": null, "time": null},
-      "type": "kebab"
+      "type": "camelCase"
     },
     {
       "sentence": "delete user",
@@ -50,9 +50,9 @@
     },
     {
       "sentence": "search item",
-      "options": ["search-item", "search-idea", "search-in-time", "scratch-item"],
+      "options": ["searchItem", "searchIdea", "searchInTime", "scratchItem"],
       "results": {"selectedOption": null, "time": null},
-      "type": "kebab"
+      "type": "camelCase"
     },
     {
       "sentence": "play video",
@@ -62,9 +62,9 @@
     },
     {
       "sentence": "add item",
-      "options": ["addItem", "addInterest", "addIce", "angleItem"],
+      "options": ["add-item", "add-interest", "add-ice", "angle-item"],
       "results": {"selectedOption": null, "time": null},
-      "type": "camelCase"
+      "type": "kebab"
     },
     {
       "sentence": "calculate sum",
@@ -74,9 +74,9 @@
     },
     {
       "sentence": "find user",
-      "options": ["findUser", "findUse", "findUsher", "fineUser"],
+      "options": ["find-user", "find-use", "find-usher", "fine-user"],
       "results": {"selectedOption": null, "time": null},
-      "type": "camelCase"
+      "type": "kebab"
     },
     {
       "sentence": "load file",
@@ -86,9 +86,9 @@
     },
     {
       "sentence": "send email",
-      "options": ["sendEmail", "sendEmil", "sandEmail", "sendEasel"],
+      "options": ["send-email", "send-emil", "sand-email", "send-easel"],
       "results": {"selectedOption": null, "time": null},
-      "type": "camelCase"
+      "type": "kebab"
     },
     {
       "sentence": "create account",
@@ -98,25 +98,13 @@
     },
     {
       "sentence": "update record",
-      "options": ["updateRecord", "updateRecall", "uprootRecord", "updateRecode"],
+      "options": ["update-record", "update-recall", "uproot-record", "update-recode"],
       "results": {"selectedOption": null, "time": null},
-      "type": "camelCase"
+      "type": "kebab"
     },
     {
       "sentence": "delete user",
       "options": ["deleteUser", "dilateUser", "deleteUse", "detailUser"],
-      "results": {"selectedOption": null, "time": null},
-      "type": "camelCase"
-    },
-    {
-      "sentence": "search item",
-      "options": ["searchItem", "searchIdea", "searchInTime", "scratchItem"],
-      "results": {"selectedOption": null, "time": null},
-      "type": "camelCase"
-    },
-    {
-      "sentence": "play video",
-      "options": ["playVideo", "playVeto", "plateVideo", "playVivid"],
       "results": {"selectedOption": null, "time": null},
       "type": "camelCase"
     }
