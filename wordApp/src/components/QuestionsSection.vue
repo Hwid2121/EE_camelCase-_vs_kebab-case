@@ -1,12 +1,13 @@
 <template>
   <v-container>
     <v-card class="mb-3" v-if="!finished">
-      <v-card-title>{{ currentQuestion.sentence }}</v-card-title>
+      <v-card-title >{{ currentQuestion.sentence }}</v-card-title>
+      <!-- <h1> {{ currentQuestion.results.selectedOption }} </h1> -->
       <v-card-text>
         <v-container>
           <v-row>
             <v-col v-for="(option, index) in currentQuestion.options" :key="index" cols="12" sm="6">
-              <v-btn block color="primary" @click="selectOption(option)">
+              <v-btn block color="primary" style="text-transform: none;" @click="selectOption(option)">
                 {{ option }}
               </v-btn>
             </v-col>
